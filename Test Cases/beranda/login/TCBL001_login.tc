@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCBL001_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04f75094-43c6-49fc-905e-331e02e1d1c9</testCaseGuid>
+   <variable>
+      <defaultValue>'https://secondhand-store.herokuapp.com/login'</defaultValue>
+      <description></description>
+      <id>56893274-61e6-42b5-882f-15a6ff4f24b0</id>
+      <masked>false</masked>
+      <name>urlLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'aditia.anggaperdana@gmail.com'</defaultValue>
+      <description></description>
+      <id>5906b0be-af95-4944-afae-02c6a8e90523</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

@@ -17,3 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('beranda/login/TCBL001_login'), [('urlLogin') : 'https://secondhand-store.herokuapp.com/login'
+        , ('email') : 'aditia.anggaperdana@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('beranda/beranda_Secondhand Store/ORBB004_judulKamera'))
+
+WebUI.verifyElementVisible(findTestObject('beranda/beranda_Secondhand Store/ORBB006_kategoriElektronik'))
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('beranda/beranda_Secondhand Store/ORBB005_judulMobil'))
+
+WebUI.verifyElementVisible(findTestObject('beranda/beranda_Secondhand Store/ORBB007_kategoriKendaraan'))
+
+WebUI.takeScreenshot()
+

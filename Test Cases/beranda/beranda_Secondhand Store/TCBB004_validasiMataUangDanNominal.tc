@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pengguna melakukan validasi Mata Uang dan Nominal pada Katalog</description>
+   <name>TCBB004_validasiMataUangDanNominal</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbb1d585-21fd-4370-bbb7-c5575adef1a5</testCaseGuid>
+</TestCaseEntity>
