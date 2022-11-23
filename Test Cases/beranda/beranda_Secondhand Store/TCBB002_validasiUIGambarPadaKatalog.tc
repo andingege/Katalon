@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pengguna melakukan validasi UI Gambar pada Katalog</description>
+   <name>TCBB002_validasiUIGambarPadaKatalog</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53d86c27-48de-4d5a-bce3-8d9117c1246d</testCaseGuid>
+</TestCaseEntity>
