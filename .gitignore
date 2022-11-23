@@ -5,3 +5,6 @@
 /.classpath
 .svn/
 /Reports/
+
+/Test Cases/homepage/jual.tc
+/Test Suites/Jual-Test-Suites/
