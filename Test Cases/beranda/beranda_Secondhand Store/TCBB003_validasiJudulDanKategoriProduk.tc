@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pengguna melakukan validasi Judul dan Kategori produk pada Katalog</description>
+   <name>TCBB003_validasiJudulDanKategoriProduk</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff453da4-5037-45eb-92c4-d84fbf2aae32</testCaseGuid>
+</TestCaseEntity>
