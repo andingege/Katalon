@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login-manual</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2224af7-f4d3-47ea-ac5a-fe4b730e7f07</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32281262-66cf-4907-ac02-ce64c5788c11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf508710-3e91-4548-bfdb-dbf9fa22884d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'agust.lofianto@gmail.com'</defaultValue>
+      <description></description>
+      <id>32281262-66cf-4907-ac02-ce64c5788c11</id>
+      <masked>false</masked>
+      <name>varUsername</name>
+   </variable>
+   <variable>
+      <defaultValue>'binar123'</defaultValue>
+      <description></description>
+      <id>bf508710-3e91-4548-bfdb-dbf9fa22884d</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>
