@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>URL</description>
+      <initValue>'https://secondhand-store.herokuapp.com/login'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Email Positif</description>
+      <initValue>'budi1011@mailnesia.com'</initValue>
+      <name>mail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>pass positif</description>
+      <initValue>'bagushary10'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>user positif</description>
+      <initValue>'budi'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>mail negatif</description>
+      <initValue>''</initValue>
+      <name>nagtif</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>gagal</description>
+      <initValue>''</initValue>
+      <name>gagal</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>sandi gagal</description>
+      <initValue>''</initValue>
+      <name>sandi</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>input the user name and password with true condition</description>
+   <name>TC-0001 Register negatif</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1d6c916-cff4-4cbf-a1ed-39a7231b7c67</testCaseGuid>
+</TestCaseEntity>
