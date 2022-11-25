@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC001 - loginMine</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a3cf2bd-a5d8-4baa-91eb-28ed7035b6a2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d6df9d3-c9eb-42fc-91f9-55bb4c62660b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15de1494-9d09-450c-a156-85e4afc44df3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'widyyy31@gmail.com'</defaultValue>
+      <description></description>
+      <id>5d6df9d3-c9eb-42fc-91f9-55bb4c62660b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'Google31'</defaultValue>
+      <description></description>
+      <id>15de1494-9d09-450c-a156-85e4afc44df3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

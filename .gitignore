@@ -1,11 +1,16 @@
 .gradle
 
-/bin/
-/Libs/
-/.settings/
-/.classpath
-.svn/
-/Reports/
+bin
 
-/Test Cases/homepage/jual.tc
-/Test Suites/Jual-Test-Suites/
+Reports
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
+
+.project
