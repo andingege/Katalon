@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Scenario Login</description>
+   <name>Web-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a598085-9a97-4c7b-a147-d9dc41d4e2bc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fcd365cd-6f1a-4827-b007-961f1572428b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ab20cf9-781b-46da-afd1-d829a96eb135</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'marpaungandin@gmail.com'</defaultValue>
+      <description></description>
+      <id>fcd365cd-6f1a-4827-b007-961f1572428b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'andingg123'</defaultValue>
+      <description></description>
+      <id>2ab20cf9-781b-46da-afd1-d829a96eb135</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
