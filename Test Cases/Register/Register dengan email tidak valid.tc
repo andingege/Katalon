@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register dengan email tidak valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e728d373-cb70-4706-8dec-b583a67987d4</testCaseGuid>
+</TestCaseEntity>
