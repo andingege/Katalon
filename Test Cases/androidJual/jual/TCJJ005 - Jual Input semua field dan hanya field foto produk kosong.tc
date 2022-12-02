@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCJJ005 - Jual Input semua field dan hanya field foto produk kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f817c639-9fa8-4529-968e-ce1abec4cb06</testCaseGuid>
+</TestCaseEntity>
