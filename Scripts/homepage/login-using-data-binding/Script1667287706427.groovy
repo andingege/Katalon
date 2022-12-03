@@ -19,11 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.linkHomepage)
+WebUI.navigateToUrl(GlobalVariable.url_Seconhand)
 
 WebUI.comment(description)
-
-WebUI.click(findTestObject('landingpage/btnLogin'))
 
 WebUI.setText(findTestObject('loginpage/txtEmail'), username)
 
@@ -31,32 +29,36 @@ WebUI.setText(findTestObject('loginpage/txtPassword'), password)
 
 WebUI.click(findTestObject('loginpage/btnMasuk'))
 
-if(flag == 'null') {
-	WebUI.verifyElementText(findTestObject('Object Repository/loginpage/lblMasuk'), 'Masuk')
+if (flag == 'null') {
+    WebUI.verifyElementText(findTestObject('Object Repository/loginpage/lblMasuk'), 'Masuk')
+
+    WebUI.delay(2)
+
+    WebUI.takeScreenshot()
+} else if (flag == 'passfound') {
+    WebUI.waitForElementPresent(findTestObject('Object Repository/loginpage/lblAkunTidakDitemukan'), 10)
+
+    WebUI.delay(2)
+
+    WebUI.takeScreenshot()
+} else if (flag == 'usernamefound') {
+    WebUI.waitForElementPresent(findTestObject('Object Repository/loginpage/lblPasswordSalah'), 10)
+
+    WebUI.delay(2)
+
+    WebUI.takeScreenshot()
+} else {
+    WebUI.delay(2)
+
+    WebUI.takeScreenshot()
+
+    WebUI.click(findTestObject('Object Repository/homepage/button_Belum ada notifikasi yang masuk_user'))
+
+    WebUI.click(findTestObject('Object Repository/homepage/btnLogout'))
+	
 	WebUI.delay(2)
-	WebUI.takeScreenshot()
+
+    WebUI.closeBrowser()
+	
 }
 
-else if(flag == 'passfound') {
-	WebUI.waitForElementPresent(findTestObject('Object Repository/loginpage/lblAkunTidakDitemukan'), 10)
-	WebUI.delay(2)
-	WebUI.takeScreenshot()
-}
-
-else if(flag == 'usernamefound') {
-	WebUI.waitForElementPresent(findTestObject('Object Repository/loginpage/lblPasswordSalah'), 10)
-	WebUI.delay(2)
-	WebUI.takeScreenshot()
-}
-
-else {
-	WebUI.delay(2)
-	
-	WebUI.takeScreenshot()
-	
-	WebUI.click(findTestObject('Object Repository/homepage/btnIconProfile'))
-	
-	WebUI.click(findTestObject('Object Repository/homepage/btnLogout'))
-	
-	WebUI.closeBrowser()
-}

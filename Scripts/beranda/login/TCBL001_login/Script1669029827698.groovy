@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(urlLogin)
+WebUI.navigateToUrl(GlobalVariable.url_Seconhand)
 
 WebUI.setText(findTestObject('beranda/login/ORBL001_input_Email'), email)
 

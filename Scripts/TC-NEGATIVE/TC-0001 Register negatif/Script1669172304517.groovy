@@ -19,15 +19,20 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.navigateToUrl(GlobalVariable.url_Seconhand)
 
-WebUI.click(findTestObject('OBJECT Positif/ORP0000-submit'))
+WebUI.click(findTestObject('OBJECT Negatif/a_Daftar di sini'))
 
-WebUI.setText(findTestObject('OBJECT Positif/ORP001-username'), GlobalVariable.nagtif)
+WebUI.setText(findTestObject('OBJECT Positif/ORP001-username'), '')
 
-WebUI.setText(findTestObject('OBJECT Positif/ORP002-email'), GlobalVariable.gagal)
+WebUI.setText(findTestObject('OBJECT Positif/ORP002-email'), '')
 
-WebUI.setText(findTestObject('OBJECT Positif/ORP003-password'), GlobalVariable.sandi)
+WebUI.setText(findTestObject('OBJECT Positif/ORP003-password'), '')
 
 WebUI.click(findTestObject('OBJECT Negatif/ORP004-Register'))
+
+WebUI.delay(5)
+
+//WebUI.takeScreenshot()
+WebUI.closeBrowser()
 

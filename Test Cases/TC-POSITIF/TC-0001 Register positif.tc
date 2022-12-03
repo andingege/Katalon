@@ -5,4 +5,43 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9f8584da-fd43-4c24-b46d-229c3553f483</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d69f9ff4-82cc-46b5-9f00-ea36928f1501</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b4588cca-0713-4d0f-9d6e-dc06e3de5ec0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd432e4b-ebd4-4a89-94e3-288c7c1c6a53</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'budi'</defaultValue>
+      <description></description>
+      <id>d69f9ff4-82cc-46b5-9f00-ea36928f1501</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'bagushary10'</defaultValue>
+      <description></description>
+      <id>b4588cca-0713-4d0f-9d6e-dc06e3de5ec0</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'budi1011@mailnesia.com'</defaultValue>
+      <description></description>
+      <id>fd432e4b-ebd4-4a89-94e3-288c7c1c6a53</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
 </TestCaseEntity>

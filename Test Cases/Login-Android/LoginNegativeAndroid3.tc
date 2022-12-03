@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginNegativeAndroid3</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>923d249c-bc45-4439-bde9-1dac7425eb7b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bdaf1081-1bd3-403b-abf0-877d71fabbfa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5bc54c77-08e0-453b-a1bc-b961610c2602</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdaf1081-1bd3-403b-abf0-877d71fabbfa</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'andingg123'</defaultValue>
+      <description></description>
+      <id>5bc54c77-08e0-453b-a1bc-b961610c2602</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

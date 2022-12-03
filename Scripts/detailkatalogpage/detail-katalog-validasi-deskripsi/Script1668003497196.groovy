@@ -21,6 +21,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('detailkatalogpage/detail-katalog-validasi-gambar'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/detailkatalogpage/isiDeskripsi')), verifyIsiDeskripsi, false)
+WebUI.verifyMatch(WebUI.getText(findTestObject('Object Repository/detailkatalogpage/p_Deskripsi')), verifyIsiDeskripsi, false)
 
 WebUI.takeScreenshot()

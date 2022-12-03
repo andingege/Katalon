@@ -21,15 +21,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_Seconhand)
 
-WebUI.click(findTestObject('OR02 - Masuk'))
+WebUI.setText(findTestObject('web-login/OR01 - EmailField'), email)
 
-WebUI.setText(findTestObject('OR01 - EmailField'), email)
+WebUI.setText(findTestObject('web-login/OR04 - PasswordField'), password)
 
-WebUI.setText(findTestObject('OR04 - PasswordField'), password)
+WebUI.click(findTestObject('web-login/OR03 - LoginButton'))
 
-WebUI.click(findTestObject('OR03 - LoginButton'))
-
-WebUI.verifyElementPresent(findTestObject('OR05 - Verify masuk'), 10)
+WebUI.verifyElementPresent(findTestObject('web-login/OR05 - Verify masuk'), 10)
 
 WebUI.takeScreenshot()
+
+WebUI.closeBrowser()
 

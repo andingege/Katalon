@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('beranda/login/TCBL001_login'), [('urlLogin') : 'https://secondhand-store.herokuapp.com/login'
-        , ('email') : 'aditia.anggaperdana@gmail.com'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('beranda/login/TCBL001_login'), [('urlLogin') : GlobalVariable.url_Seconhand, ('email') : 'aditia.anggaperdana@gmail.com'], 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementVisible(findTestObject('beranda/beranda_Secondhand Store/ORBB004_judulKamera'))
 

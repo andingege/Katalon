@@ -21,9 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl(GlobalVariable.linkHomepage)
-
-WebUI.click(findTestObject('landingpage/btnLogin'))
+WebUI.navigateToUrl(GlobalVariable.url_Seconhand)
 
 WebUI.setText(findTestObject('loginpage/txtEmail'), varUsername)
 

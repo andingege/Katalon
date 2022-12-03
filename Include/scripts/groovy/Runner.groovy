@@ -31,5 +31,5 @@ monochrome = true
 )
 
 
-public class Runner {
+public class runner {
 }

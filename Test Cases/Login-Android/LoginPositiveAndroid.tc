@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginPositiveAndroid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>187ced42-3fac-4464-912d-af46c29ad5b6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8a2c8580-6b01-4442-8baa-31b6db8b1e46</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99232b7b-5db2-4325-ad9d-c2662f0b677d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'gevinandin@gmail.com'</defaultValue>
+      <description></description>
+      <id>8a2c8580-6b01-4442-8baa-31b6db8b1e46</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'andingg123'</defaultValue>
+      <description></description>
+      <id>99232b7b-5db2-4325-ad9d-c2662f0b677d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

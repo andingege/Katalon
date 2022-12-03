@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Loginsecondhand</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>438c69d6-09f5-4fe4-bb67-4c4f9d9704fb</testSuiteGuid>
+   <testCaseLink>
+      <guid>90f4d304-e1a3-4365-8a9e-40827f7c7ed3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WebLogin/Loginndatabinding/Web-Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f76077d2-afbe-4f8e-95bb-682d1d42284b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/SecondLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>f76077d2-afbe-4f8e-95bb-682d1d42284b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>fb1766ff-fac8-4e66-979e-e72920218970</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f76077d2-afbe-4f8e-95bb-682d1d42284b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>42e36551-b831-4a36-8a23-b3dd6c910016</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f76077d2-afbe-4f8e-95bb-682d1d42284b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>35c9f84a-0e2a-49de-b73d-d470098aec45</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f76077d2-afbe-4f8e-95bb-682d1d42284b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>flag</value>
+         <variableId>73993982-b9d0-454c-8f36-1f2b868cf34a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

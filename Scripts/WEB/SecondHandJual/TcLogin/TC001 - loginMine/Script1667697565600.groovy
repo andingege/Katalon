@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.url_Seconhand)
 
 WebUI.setText(findTestObject('WEB/SecondHandJual/LoginSecondHand/OOR001 - userField'), username)
 

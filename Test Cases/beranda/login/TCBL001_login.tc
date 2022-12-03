@@ -5,6 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>04f75094-43c6-49fc-905e-331e02e1d1c9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56893274-61e6-42b5-882f-15a6ff4f24b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5906b0be-af95-4944-afae-02c6a8e90523</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'https://secondhand-store.herokuapp.com/login'</defaultValue>
       <description></description>

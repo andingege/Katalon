@@ -21,32 +21,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url_Seconhand)
 
-WebUI.click(findTestObject('OR02 - Masuk'))
-
 WebUI.comment(description)
 
-WebUI.setText(findTestObject('OR01 - EmailField'), email)
+WebUI.setText(findTestObject('web-login/OR01 - EmailField'), email)
 
-WebUI.setText(findTestObject('OR04 - PasswordField'), password)
+WebUI.setText(findTestObject('web-login/OR04 - PasswordField'), password)
 
-WebUI.click(findTestObject('OR03 - LoginButton'))
+WebUI.click(findTestObject('web-login/OR03 - LoginButton'))
 
-if(flag == 'null') {
-	WebUI.verifyElementText(findTestObject('Object Repository/button_Masuk'), 'Masuk')
-	WebUI.delay(2)
-	WebUI.takeScreenshot()
-}
+if (flag == 'null') {
+    WebUI.verifyElementText(findTestObject('Object Repository/web-login/button_Masuk'), 'Masuk')
 
-else if(flag == 'usernamenull') {
-	WebUI.waitForElementPresent(findTestObject('Object Repository/input_Email'), 10)
-	WebUI.delay(2)
-	WebUI.takeScreenshot()
-}
+    WebUI.delay(2)
 
-else if(flag == 'passwordnull') {
-	WebUI.waitForElementPresent(findTestObject('Object Repository/input_Password'), 10)
-	WebUI.delay(2)
-	WebUI.takeScreenshot()
+    WebUI.takeScreenshot()
+} else if (flag == 'usernamenull') {
+    WebUI.waitForElementPresent(findTestObject('Object Repository/web-login/input_Email'), 10)
+
+    WebUI.delay(2)
+
+    WebUI.takeScreenshot()
+} else if (flag == 'passwordnull') {
+    WebUI.waitForElementPresent(findTestObject('Object Repository/web-login/input_Password'), 10)
+
+    WebUI.delay(2)
+
+    WebUI.takeScreenshot()
 }
 
 WebUI.closeBrowser()
+

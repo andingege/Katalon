@@ -19,7 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('detailkatalogpage/detail-katalog-swipe-left'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('detailkatalogpage/btnSayaTertarik'))
+WebUI.scrollToPosition(50, 0)
+
+WebUI.click(findTestObject('detailkatalogpage/button_Saya tertarik'))
 
 WebUI.takeScreenshot()
 
